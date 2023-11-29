@@ -1,0 +1,228 @@
+body {
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    top: 200px;
+    left: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: #95D9C3;
+    border: 5px solid #95D9C3;
+    border-radius: 5px;
+}
+
+#load{
+    position: absolute; 
+    top: 150px;
+    left: 500px;
+}
+
+#close{
+    position: absolute; 
+    width: 150px;
+    height: 100px;
+    top: 150px;
+    left: 45%;
+}
+
+#reg{
+    top: 400px;
+    left: 500px;
+}
+
+#search{
+    position: absolute;
+    top: 90px;
+    left: 500px;
+}
+
+#show{
+    position: absolute;
+    top: 210px;
+    left: 500px;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 6px #5C5C5C;
+    color: black;
+    cursor: pointer;
+}
+
+.id {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border: 3px solid #204B57;
+}
+
+.contra {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border: 3px solid #204B57;
+}
+
+.lblId {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.lblContra {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.form-control{
+    width: 200px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border: 3px solid #204B57;
+    display: flex;
+    flex-direction: column;
+}
+
+.frmFoto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.frmDetalle{
+    width: 300px;
+    height: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #204B57;
+    resize: none;
+}
+
+.nave{
+    background-color: #6397a5;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.nave li{
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nave li:hover{
+    background-color: #95D9C3;
+    cursor: pointer;
+}
+
+.nave li a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.nave li:first-child:hover{
+    cursor: default;
+    background-color: #6397a5;
+}
+
+.tit{
+    text-align: center;
+}
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th{
+    text-align: middle;
+    background-color: #94C9A9;
+}
+
+th, td {
+    padding: 8px;
+    text-align: middle;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #204B57;
+    border-top: 2px solid #204B57;
+}
+
+tbody{
+    text-align: center;
+}
+
+th:first-child,td:first-child {
+    border-left: 2px solid #204B57; 
+}
+
+th:last-child, td:last-child{
+    border-right: 2px solid #204B57;
+}
+
+
+.del{
+    width: 80px;
+    height: 40px;
+    background-color: #B70107;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+.mod{
+    width: 80px;
+    height: 40px;
+    background-color: #B6CCA1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+.del:hover, .mod:hover{
+    box-shadow: 0px 0px 6px #5C5C5C;
+    cursor: pointer;
+}

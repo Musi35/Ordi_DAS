@@ -1,0 +1,26 @@
+{% extends "layouts/layout.html" %}
+
+{%block title %}
+{{title}}
+{% endblock %}
+
+{% block body %}
+<table>
+    <thead>
+        <tr>
+            <th>Cuadrilla</th>
+            <th>Jefe de Cuadrilla</th>
+            <th>Número de Empleados</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in data %}
+        <tr>
+            <td>{{ item.cuadrilla }}</td>
+            <td>{{ item.jefe_cuadrilla }}</td>
+            <td>{{ item.empleados_count }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
